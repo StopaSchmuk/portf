@@ -1,2 +1,2 @@
 document.getElementById('foo').textContent = '<p>Hello, World!</p>'
-// hail gitlerrrr
+// git takaya hui nyaaaa >_<
