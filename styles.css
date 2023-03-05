@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Gajraj+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+p{font-family: 'Gajraj One', cursive;
+    font-size: 50px;
+    color: maroon;
+    
+}
+.p1{font-family: 'Anton', sans-serif;
+    color: white;
+    font-size: 27px;
+    margin-left: 65px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    display: inline-block;    
+}
+.p2{font-family: 'Anton', sans-serif;
+    color: white;
+    font-size: 27px;
+    padding-left: 0px;
+    margin-top: 20px;
+    display: inline-block;
+    vertical-align: 280px;
+}
+.p3{font-family: 'Anton', sans-serif;
+    color: white;
+    font-size: 27px;
+    margin-top: 20px;
+    
+   
+}
+.line1{
+    height: auto; width: 100%; background-color: maroon;}
