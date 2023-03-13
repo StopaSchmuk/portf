@@ -2,6 +2,8 @@
 /*font-family: 'Gajraj One', cursive;*/
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 /*font-family: 'Anton', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');
+/* font-family: 'Rajdhani', sans-serif; */
 .bodys{
     margin: 0px;
     background: black;
@@ -68,9 +70,16 @@
     left: 645px;
 }
 .line1{
-    height: 400px; 
+    height: 360px; 
     width: 100%;
     background-color: maroon;
+    position: relative;
+    top: 63px;
+}
+.line2{
+    height: 1000px; 
+    width: 100%;
+    background-color: black;
     position: relative;
     top: 63px;
 }
@@ -79,12 +88,36 @@
     top: 20px;
 }
 .font_inf_white{
+    /* font-family: 'Rajdhani', sans-serif;
+    font-weight: 700; */
     font-family: 'Anton', sans-serif;
     font-size: 28px;
     color: lightgray;
     position: absolute;
     left: 340px;
     top: 20px;
+}
+.font_inf_red{
+    width: 74%;
+    font-family: 'Anton', sans-serif;
+    font-size: 28px;
+    text-indent: 24px;
+    color: maroon;
+    position: absolute;
+    top: 80px;
+    left: 20px;
+
+}
+.font_inf_red2{
+    width: 97%;
+    font-family: 'Anton', sans-serif;
+    font-size: 28px;
+    text-indent: 24px;
+    color: maroon;
+    position: absolute;
+    top: 416px;
+    left: 20px;
+
 }
 .span_font_inf_white{
     font-family: 'Anton', sans-serif;
@@ -98,4 +131,18 @@
 .paragraph{
     margin: 0px;
     text-indent: 24px;
+}
+.plife{
+    font-family: 'Gajraj One', cursive;
+    font-size: 40px;
+    color: maroon;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+.bline_img{
+    position: absolute;
+    top: 70px;
+    right: 69px;
+    border: 10px solid maroon;
 }
