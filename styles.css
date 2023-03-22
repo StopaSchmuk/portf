@@ -72,11 +72,18 @@
     z-index: 100;
     border-right: 5px solid maroon;
     position: absolute;
-    left: 645px;
+    left: 570px;
     list-style-type: none;
 }
 .line1{
     height: 360px; 
+    width: 100%;
+    background-color: maroon;
+    position: relative;
+    top: 59px;
+}
+.line1_cell{
+    height: 460px; 
     width: 100%;
     background-color: maroon;
     position: relative;
@@ -89,9 +96,35 @@
     position: relative;
     top: 59px;
 }
+.lineCoD{
+    height: 1700px; 
+    width: 100%;
+    background-color: black;
+    position: relative;
+    top: 59px;
+}
+.lineCell{
+    height: 2400px; 
+    width: 100%;
+    background-color: black;
+    position: relative;
+    top: 59px;
+}
 .line_img{
     position: absolute;
     top: 20px;
+}
+.bline_img{
+    position: absolute;
+    top: 50px;
+    right: 69px;
+    border: 10px solid maroon;
+}
+.bline_img2{
+    position: absolute;
+    top: 240px;
+    right: 69px;
+    border: 10px solid maroon;
 }
 .font_inf_white{
     /* font-family: 'Rajdhani', sans-serif;
@@ -110,9 +143,19 @@
     text-indent: 24px;
     color: maroon;
     position: absolute;
-    top: 80px;
+    top: 20px;
     left: 20px;
 
+}
+.font_inf_red_main{
+    width: 74%;
+    font-family: 'Anton', sans-serif;
+    font-size: 28px;
+    text-indent: 24px;
+    color: maroon;
+    position: absolute;
+    top: 80px;
+    left: 20px;
 }
 .font_inf_red2{
     width: 97%;
@@ -121,7 +164,29 @@
     text-indent: 24px;
     color: maroon;
     position: absolute;
-    top: 416px;
+    top: 42%;
+    left: 20px;
+
+}
+.font_inf_red2_CoD{
+    width: 97%;
+    font-family: 'Anton', sans-serif;
+    font-size: 28px;
+    text-indent: 24px;
+    color: maroon;
+    position: absolute;
+    top: 430px;
+    left: 20px;
+
+}
+.font_inf_red2_Cell{
+    width: 97%;
+    font-family: 'Anton', sans-serif;
+    font-size: 28px;
+    text-indent: 24px;
+    color: maroon;
+    position: absolute;
+    top: 640px;
     left: 20px;
 
 }
@@ -146,12 +211,7 @@ a{
     top: 10px;
     left: 20px;
 }
-.bline_img{
-    position: absolute;
-    top: 70px;
-    right: 69px;
-    border: 10px solid maroon;
-}
+
 nav ul ul{
     display: none;
     position: absolute;
@@ -174,4 +234,39 @@ nav ul ul li:not(:last-of-type){
     list-style-type:circle;
     border-bottom:  2px solid maroon;
 }
-
+.hr{
+    width: 1100px;
+    height: 5px;
+    border: 0px;
+    background-color: maroon;
+    margin: 0px;
+    position: absolute;
+    bottom: 230px;
+    left: 105px;
+    
+}
+.Madeinchina{
+    font-family: 'Gajraj One', cursive;
+    font-size: 40px;
+    color: maroon;
+    position: absolute;
+    bottom: 95px;
+    left: 429.25px;
+}
+.Albums{
+    margin-block-start: 10px;
+    margin-left: 15px;
+}
+.Albums2{
+    margin-block-start: 10px;
+    margin-left: 40px;
+}
+.COd_logo{
+    position: absolute;
+    bottom: 50px;
+    right: 80px;
+}
+.span_stalb{
+    margin: 0%;
+    text-indent: 30px;
+}
