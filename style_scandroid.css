@@ -22,10 +22,10 @@
     padding-left: 55.35px;
     padding-right: 55.35px;
     padding-bottom: 0px;
-    color: maroon;
+    color: purple;
     position: absolute;
     z-index: 100;
-   border-right: 5px solid maroon;
+   border-right: 5px solid purple;
     list-style-type: none;
     position: absolute;
     left: 0px;
@@ -37,10 +37,10 @@
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 9.5px;
-    color: maroon;
+    color: purple;
     position: absolute;
     z-index: 100;
-    border-right: 5px solid maroon;
+    border-right: 5px solid purple;
     position: absolute;
     left: 320px;
     list-style-type: none;
@@ -52,10 +52,10 @@
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 9.5px;
-    color: maroon;
+    color: purple;
     position: absolute;
     z-index: 100;
-    border-right: 5px solid maroon;
+    border-right: 5px solid purple;
     position: absolute;
     left: 487px;
     list-style-type: none;
@@ -67,10 +67,10 @@
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 9.5px;
-    color: maroon;
+    color: purple;
     position: absolute;
     z-index: 100;
-    border-right: 5px solid maroon;
+    border-right: 5px solid purple;
     position: absolute;
     left: 570px;
     list-style-type: none;
@@ -78,7 +78,7 @@
 .line1{
     height: 360px; 
     width: 100%;
-    background-color: maroon;
+    background-color: purple;
     position: relative;
     top: 59px;
 }
@@ -86,26 +86,19 @@
 .line1_cell{
     height: 460px; 
     width: 100%;
-    background-color: maroon;
+    background-color: purple;
     position: relative;
     top: 59px;
 }
 .line2{
-    height: 1070px; 
+    height: 1000px; 
     width: 100%;
     background-color: black;
     position: relative;
     top: 59px;
 }
 .lineCoD{
-    height: 1700px; 
-    width: 100%;
-    background-color: black;
-    position: relative;
-    top: 59px;
-}
-.lineFreqGen{
-    height: 1170px; 
+    height: 1570px; 
     width: 100%;
     background-color: black;
     position: relative;
@@ -126,13 +119,13 @@
     position: absolute;
     top: 50px;
     right: 69px;
-    border: 10px solid maroon;
+    border: 10px solid purple;
 }
 .bline_img2{
     position: absolute;
     top: 240px;
     right: 69px;
-    border: 10px solid maroon;
+    border: 10px solid purple;
 }
 .font_inf_white{
     /* font-family: 'Rajdhani', sans-serif;
@@ -149,7 +142,7 @@
     font-family: 'Anton', sans-serif;
     font-size: 28px;
     text-indent: 24px;
-    color: maroon;
+    color: purple;
     position: absolute;
     top: 20px;
     left: 20px;
@@ -160,7 +153,7 @@
     font-family: 'Anton', sans-serif;
     font-size: 28px;
     text-indent: 24px;
-    color: maroon;
+    color: purple;
     position: absolute;
     top: 80px;
     left: 20px;
@@ -170,7 +163,7 @@
     font-family: 'Anton', sans-serif;
     font-size: 28px;
     text-indent: 24px;
-    color: maroon;
+    color: purple;
     position: absolute;
     top: 42%;
     left: 20px;
@@ -181,31 +174,9 @@
     font-family: 'Anton', sans-serif;
     font-size: 28px;
     text-indent: 24px;
-    color: maroon;
+    color: purple;
     position: absolute;
-    top: 430px;
-    left: 20px;
-
-}
-.font_inf_red2_FreqGen{
-    width: 97%;
-    font-family: 'Anton', sans-serif;
-    font-size: 28px;
-    text-indent: 24px;
-    color: maroon;
-    position: absolute;
-    top: 540px;
-    left: 20px;
-
-}
-.font_inf_red2_Cell{
-    width: 97%;
-    font-family: 'Anton', sans-serif;
-    font-size: 28px;
-    text-indent: 24px;
-    color: maroon;
-    position: absolute;
-    top: 640px;
+    top: 480px;
     left: 20px;
 
 }
@@ -215,7 +186,7 @@
     color: white;
 }
 a{
-    color: maroon;
+    color: purple;
     text-decoration: none;
 }
 .paragraph{
@@ -225,7 +196,7 @@ a{
 .plife{
     font-family: 'Gajraj One', cursive;
     font-size: 40px;
-    color: maroon;
+    color: purple;
     position: absolute;
     top: 10px;
     left: 20px;
@@ -236,22 +207,23 @@ nav ul ul{
     position: absolute;
     top:100%;
 }
-nav ul li:hover > ul {
+nav ul li:hover > ul{
     display: inherit;
     background: black;
     padding-right: 20%;
     list-style-type: none ;
-    border:  2px solid maroon;
+    border:  2px solid purple;
     position: absolute;
     left: 0%;
+
 }
 nav ul ul li{
     min-width: 170px;
+    list-style-type:disc;
     float: none;
     display: list-item;
     position: relative;
-    border-bottom:  2px solid maroon;
-    list-style: disc;
+    border-bottom:  2px solid purple;
 }
 nav ul ul li:last-child{
     border-bottom: 0px;
@@ -260,7 +232,7 @@ nav ul ul li:last-child{
     width: 1100px;
     height: 5px;
     border: 0px;
-    background-color: maroon;
+    background-color: purple;
     margin: 0px;
     position: absolute;
     bottom: 230px;
@@ -270,7 +242,7 @@ nav ul ul li:last-child{
 .Madeinchina{
     font-family: 'Gajraj One', cursive;
     font-size: 40px;
-    color: maroon;
+    color: purple;
     position: absolute;
     bottom: 95px;
     left: 429.25px;
@@ -283,31 +255,14 @@ nav ul ul li:last-child{
     margin-block-start: 10px;
     margin-left: 40px;
 }
-.COd_logo{
-    position: absolute;
-    bottom: 50px;
-    right: 80px;
-}
-.Rick_Astley{
-    position: absolute;
-    bottom: 50px;
-    right: 80px;
-    height: 300px;
-    width: 350px;
-}
+
 .span_stalb{
     margin: 0%;
     text-indent: 30px;
 }
-.butt{
-    height: 20px;
-    width: 50px;
-}
-.click{
+.COd_logo{
     position: absolute;
-    left: 100px;
-    top: 20px;
-    height: 70px;
-    width: 140px;
-    background-color: blueviolet;
+    bottom: 50px;
+    right: 80px;
+    height: 200px; width: 200px;
 }
