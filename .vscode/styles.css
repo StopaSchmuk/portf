@@ -82,7 +82,13 @@
     position: relative;
     top: 59px;
 }
-
+.lineRandom{
+    height: 380px; 
+    width: 100%;
+    background-color: maroon;
+    position: relative;
+    top: 59px;
+}
 .line1_cell{
     height: 460px; 
     width: 100%;
@@ -300,14 +306,43 @@ nav ul ul li:last-child{
     text-indent: 30px;
 }
 .butt{
-    height: 20px;
-    width: 50px;
+    font-family: 'Gajraj One', cursive;
+    font-size: 30px;
+    height: 170px;
+    width: 230px;
+    padding: 0px;
+    position: absolute;
+    top: 50px;
+    left: 30px;
+    background-color: maroon;
+    border-width: 6px;
+    border-style: dashed;
 }
 .click{
+    font-family: 'Gajraj One', cursive;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: absolute;
-    left: 100px;
-    top: 20px;
-    height: 70px;
-    width: 140px;
-    background-color: blueviolet;
+    left: 300px;
+    top: 50px;
+    height: 158px;
+    width: 700px;
+    background-color: maroon;
+    border-width: 6px;
+    border-style: dashed;
 }
+.click2{
+    font-family: 'Gajraj One', cursive;
+    font-size: 20px;
+    height: 158px;
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 300px;
+    top: 150px;
+
+};
