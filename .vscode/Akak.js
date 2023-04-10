@@ -7,8 +7,8 @@ div_2.className = 'click2';
 let div_3 = document.createElement('div');
 let i = 0;
 let historyObj = {
-    rProject: '', 
-    rTrack: '',
+    rProject: [], 
+    rTrack: [],
 
 };
 //массив прэктов и объект с треками
@@ -32,23 +32,37 @@ function getRandomTrack() {
 };
 
 button_1.addEventListener('click', function () {
+    
+    
+    
+    
+    if (i > 1) {
+        let blyat = 'HUILO';
+        div_3.className = blyat;
+        historyObj['rProject'][1] = historyObj['rProject'][0];
+        historyObj['rTrack'][1] = historyObj['rTrack'][0];
+        div_3.innerHTML = historyObj['rProject'][1] + " - " + historyObj['rTrack'][1];
+        RandomId.append(div_3);
+    };
+
+
+
+    if (i > 0) {
+        div_2.className = 'click2';
+        historyObj['rProject'][0] = project;
+        historyObj['rTrack'][0] = albums[project][track];
+        div_2.innerHTML = historyObj['rProject'][0] + " - " + historyObj['rTrack'][0];
+        RandomId.append(div_2);
+
+    };
+
+
+
     getRandomProject();
     getRandomTrack();
-    if (i === 0) {
-        div_2.className = 'click2';
-        historyObj.rProject = ' ';
-        historyObj.rTrack = ' ';
-        div_2.innerHTML = historyObj.rProject + " - " + historyObj.rTrack;
-        RandomId.append(div_2);
-    
-    };
     div_1.className = 'click';
     div_1.innerHTML = "You got: ";
     div_1.insertAdjacentText('beforeend', project + " - " + albums[project][track]);
-
-    historyObj.rProject = project;
-    historyObj.rTrack = albums[project][track];
-
     RandomId.append(div_1);
 
     console.log(historyObj);
