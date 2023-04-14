@@ -37,8 +37,7 @@ button_1.addEventListener('click', function () {
     
     
     if (i > 1) {
-        let blyat = 'HUILO';
-        div_3.className = blyat;
+        div_3.className = 'HUILO';
         historyObj['rProject'][1] = historyObj['rProject'][0];
         historyObj['rTrack'][1] = historyObj['rTrack'][0];
         div_3.innerHTML = historyObj['rProject'][1] + " - " + historyObj['rTrack'][1];

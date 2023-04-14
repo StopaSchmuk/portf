@@ -97,6 +97,13 @@
     position: relative;
     top: 59px;
 }
+.lineR{
+    height: 100px; 
+    width: 100%;
+    background-color: black;
+    position: relative;
+    top: 59px;
+}
 .lineCoD{
     height: 1570px; 
     width: 100%;

@@ -103,6 +103,13 @@
     position: relative;
     top: 59px;
 }
+.lineR{
+    height: 250px; 
+    width: 100%;
+    background-color: black;
+    position: relative;
+    top: 59px;
+}
 .lineCoD{
     height: 1700px; 
     width: 100%;
@@ -328,34 +335,60 @@ nav ul ul li:last-child{
     left: 300px;
     top: 50px;
     height: 158px;
-    width: 700px;
+    width: 800px;
     background-color: maroon;
     border-width: 6px;
     border-style: dashed;
 }
 .click2{
     font-family: 'Gajraj One', cursive;
-    font-size: 20px;
-    height: 158px;
-    width: 700px;
+    font-size: 30px;
+    height: 35px;
+    width: 800px;
     display: flex;
     justify-content: center;
     align-items: center;
     position: absolute;
     left: 300px;
-    top: 170px;
+    top: 240px;
+    border-width: 6px;
+    border-style: dashed;
+    padding: 0%;
 
-};
+}
 .HUILO{
     font-family: 'Gajraj One', cursive;
-    font-size: 20px;
-    height: 158px;
-    width: 700px;
+    font-size: 30px;
+    height: 35px;
+    width: 800px;
     display: flex;
     justify-content: center;
     align-items: center;
     position: absolute;
     left: 300px;
-    top: 200px;
-
-};
+    top: 308px;
+    border-width: 6px;
+    border-style: dashed;
+    padding: 0%;
+}
+h1{
+    font-family: 'Gajraj One', cursive;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    margin: 0px;
+}
+ol{
+    font-family: 'Gajraj One', cursive;
+    font-size: 25px;
+    position: absolute;
+    top: 30px;
+    left: 50px
+}
+.lineTopTrack{
+    height: 460px; 
+    width: 100%;
+    background-color: maroon;
+    position: relative;
+    top: 59px;
+}
